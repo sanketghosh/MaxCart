@@ -1,0 +1,70 @@
+.navBar {
+  background: #ebebf340;
+  box-shadow: 0 8px 32px 0 #5d5d5d5e;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  margin: 15px;
+  height: 65px;
+  color: var(--dark);
+  position: sticky;
+  top: 15px;
+  .navWrapper {
+    height: 100%;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .brandName {
+      margin-left: 40px;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .navMenu {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      list-style: none;
+      .navMenuItem {
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 500;
+      }
+    }
+
+    /* if we implement the cart is not there logic when the cart item is 0 */
+    /* 
+    .dummyCartLogo {
+      margin-right: 40px;
+    } */
+
+    .cartLogo {
+      margin-right: 40px;
+      cursor: pointer;
+      position: relative;
+      .cartIcon {
+        border-radius: 50%;
+        font-size: 45px;
+        cursor: pointer;
+        border: 1px solid var(--dark);
+        padding: 10px;
+      }
+      .itemsInCart {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #ffbb00;
+        border-radius: 50%;
+        color: var(--dark);
+        font-weight: 600;
+        bottom: 4px;
+        right: -8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+      }
+    }
+  }
+}

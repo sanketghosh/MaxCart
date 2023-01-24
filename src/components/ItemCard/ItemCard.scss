@@ -1,0 +1,77 @@
+.itemCard {
+  background: #ebebf340;
+  box-shadow: 0 8px 32px 0 #5d5d5d73;
+  backdrop-filter: blur(-8px);
+  -webkit-backdrop-filter: blur(-8px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 350px;
+  width: 345px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px 25px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+
+  .itemImg {
+    height: 185px;
+    width: 330px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .itemDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .itemName {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .itemPrice {
+      font-size: 17px;
+      font-weight: 500;
+    }
+  }
+  .addToCartBtn {
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-family: inherit;
+    background-color: #4633bf;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--white);
+    text-transform: capitalize;
+    transition: 0.4s;
+    font-size: 15px;
+    word-spacing: 5px;
+  }
+  .addToCartBtn:hover {
+    background: #523ed2;
+  }
+
+  .addRemoveCartItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .removeItemBtn {
+      height: 40px;
+      border: none;
+      font-family: inherit;
+      width: 80px;
+      border-radius: 5px;
+      color: inherit;
+      background-color: #f04f4f;
+      font-size: 13px;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .removeItemBtn:hover {
+      background-color: #f33a3a;
+    }
+  }
+}

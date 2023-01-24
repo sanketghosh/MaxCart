@@ -1,0 +1,36 @@
+.changeItemNumber {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .decreaseItem,
+  .increaseItem {
+    height: 40px;
+    border: none;
+    width: 30px;
+    background-color: #4633bf;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .decreaseItem:hover,
+  .increaseItem:hover {
+    background-color: #523ed2;
+  }
+
+  .itemsInCart {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    .itemNumber {
+      font-size: 18px;
+      width: 20px;
+      font-weight: 600;
+    }
+  }
+}

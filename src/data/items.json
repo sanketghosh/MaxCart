@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "DSLR Camera",
+    "price": 1000.99,
+    "imgUrl": "/images/img1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Accessories",
+    "price": 52.99,
+    "imgUrl": "/images/img2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "USB Hub",
+    "price": 25.99,
+    "imgUrl": "/images/img3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Skin Care",
+    "price": 15.99,
+    "imgUrl": "/images/img4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Headset",
+    "price": 12.29,
+    "imgUrl": "/images/img5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "DSLR Camera",
+    "price": 1000.99,
+    "imgUrl": "/images/img1.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Accessories",
+    "price": 52.99,
+    "imgUrl": "/images/img2.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "USB Hub",
+    "price": 25.99,
+    "imgUrl": "/images/img3.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Skin Care",
+    "price": 15.99,
+    "imgUrl": "/images/img4.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Headset",
+    "price": 12.29,
+    "imgUrl": "/images/img5.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "DSLR Camera",
+    "price": 1000.99,
+    "imgUrl": "/images/img1.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Accessories",
+    "price": 52.99,
+    "imgUrl": "/images/img2.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "USB Hub",
+    "price": 25.99,
+    "imgUrl": "/images/img3.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Skin Care",
+    "price": 15.99,
+    "imgUrl": "/images/img4.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Headset",
+    "price": 12.29,
+    "imgUrl": "/images/img5.jpeg"
+  }
+]

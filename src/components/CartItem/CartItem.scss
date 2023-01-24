@@ -1,0 +1,59 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  //   background-color: red;
+  border: 1px solid #c5c5c5;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  .item {
+    display: flex;
+    gap: 10px;
+
+    .itemImg {
+      height: 100px;
+      width: 200px;
+      object-fit: cover;
+    }
+    .itemDetails {
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      .itemName {
+        font-weight: 600;
+        .itemNoInCart {
+          font-size: 13px;
+          font-weight: 500;
+          color: #9b9b9b;
+        }
+      }
+    }
+  }
+
+  .buyItemDetails {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .totalItemPrice {
+      font-size: 18px;
+    }
+    .removeBtn {
+      border: none;
+      background-color: var(--red);
+      color: var(--white);
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 18px;
+      cursor: pointer;
+      width: 40px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
